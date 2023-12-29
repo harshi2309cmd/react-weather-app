@@ -5,14 +5,17 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-     <Weather defaultCity="New York" />
-     <footer>
-      This Project is coded by {""}
-      Harshitha Reddy{""} and is {""}  
-     <a href="https://github.com/harshi2309cmd/react-weather-app">Open-sourced at Github</a>
-     </footer>
+      <div className= "container">
+        <div className='weather'>
+          <Weather defaultCity="New York" />
+          <footer>
+            This Project is coded by {""} Harshitha Reddy{""} and is {""}  
+            <a href="https://github.com/harshi2309cmd/react-weather-app">Open-sourced at Github</a>
+          </footer>
+        </div>
+      </div>
     </div>
-  );
+);
 }
 
 
